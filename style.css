@@ -1,0 +1,82 @@
+header {
+  background: #fff9f4;
+}
+.navbar-brand img {
+  width: 225px;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3c3c3c !important;
+}
+.hero h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #3c3c3c;
+}
+.hero h1 > span {
+  color: #fa804c;
+}
+.buy-btn {
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  border-radius: 10px;
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+button > svg {
+  width: 20px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.buy-btn:hover {
+  color: turquoise;
+}
+/* ==============MAIN============ */
+.shoes-title {
+  font-size: 48px;
+  color: #363958;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card {
+  border-radius: 20px;
+}
+.casual .card img {
+  width: 311px;
+  height: 311px;
+  /* filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.15)); */
+  width: 100%;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+.card-title,
+.service-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-bottom {
+  padding: 10px 15px;
+}
+.card-bottom > h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #fa804c;
+}
+
+.service-big img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+}
